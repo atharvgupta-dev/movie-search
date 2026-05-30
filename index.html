@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search</title>
+    <style>
+        body {
+            background-image: url('movieback.jpg'); 
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 400px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 25px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        h1 {
+            font-family: 'Algerian', sans-serif;
+            color: #ffffff; 
+            margin-bottom: 20px;
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ffffff;
+            margin: 20px 0;
+        }
+
+        .line {
+            height: 2px;
+            background-color: white;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        input {
+            font-family: 'Georgia', sans-serif;
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: none;
+            margin-bottom: 10px;
+        }
+
+        button {
+            font-family: 'Cambria', sans-serif;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #0e022b; 
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0e4b68; 
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+            color: #ffffff; 
+        }
+        
+        .movie-poster {
+            width: 150px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        #movieResult {
+            margin-top: 20px;
+            color: #ffffff; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i>Movie Search</i></h1>
+        <hr>
+        <input type="text" id="movieInput" placeholder="Enter movie name...">
+        <button onclick="sendMovieData()">Search</button>
+        <div id="movieResult"></div>
+    </div>
+
+<script src="moviescript.js"> </script>
+</body>
+</html>
