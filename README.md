@@ -1,6 +1,6 @@
 # CineSearch
 
-Movie discovery application built using JavaScript and TMDB API.
+Movie discovery web app built with HTML, CSS, JavaScript, and TMDB API.
 
 ## Features
 
@@ -8,12 +8,23 @@ Movie discovery application built using JavaScript and TMDB API.
 - Trending Movies
 - Genre Browsing
 - Movie Details
-- Theme Toggle
-- Pagination (Load More)
+- Dark/Light Theme
+- Load More Pagination
 
 ## Setup
 
-Create config.js:
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Create a file named `config.js`
+
+3. Add your TMDB API key:
 
 ```js
 const API_KEY = "YOUR_TMDB_API_KEY"
+```
+
+4. Open `index.html` using Live Server.
