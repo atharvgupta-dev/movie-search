@@ -1,2 +1,19 @@
-# movie-search
-A movie database search app powered by the OMDB API. Search any movie and instantly get the poster, plot, cast, director, genre, IMDB rating and box office collection. Supports Enter key search. Tech: HTML, CSS, JavaScript, OMDB API
+# CineSearch
+
+Movie discovery application built using JavaScript and TMDB API.
+
+## Features
+
+- Movie Search
+- Trending Movies
+- Genre Browsing
+- Movie Details
+- Theme Toggle
+- Pagination (Load More)
+
+## Setup
+
+Create config.js:
+
+```js
+const API_KEY = "YOUR_TMDB_API_KEY"
