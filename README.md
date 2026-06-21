@@ -2,7 +2,7 @@
 
 Movie discovery web app built with HTML, CSS, JavaScript, and TMDB API.
 
-## Features of CineSearch 
+## Features of CineSearch :
 
 - Movie Search
 - Trending Movies
